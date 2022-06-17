@@ -7,7 +7,7 @@ module.exports = {
     main: path.resolve(__dirname, './sources/src/index.js'),
   },
 	output: {
-		path: path.resolve(__dirname, './dist'),
+		path: path.resolve(__dirname, './sources/dist'),
 		filename: 'bundle.js'
   },
   module: {
@@ -22,7 +22,7 @@ module.exports = {
 	},
 	plugins: [
 		new miniCss({
-			filename: '../sources/src/style.css',
+			filename: '../src/style.css',
 		}),
 	]
 };
