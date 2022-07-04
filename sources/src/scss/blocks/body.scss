@@ -1,0 +1,55 @@
+body {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Open Sans", "Arial", sans-serif;
+
+  margin: 0;
+  padding: 0;
+
+  min-height: 320px;
+
+  color: $gray;
+  background-color: $white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  font: inherit;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden,
+input[type="file"].visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+@media (min-width: $tablet-width) {
+  body {
+    background-size: 668px auto;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  body {
+    background-size: 1050px auto;
+  }
+}

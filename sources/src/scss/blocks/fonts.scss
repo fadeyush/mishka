@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url(/sources/fonts/opensans.woff2) format('woff'),
+  url(/sources/fonts/opensans.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-0513;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url(/sources/fonts/opensansbold.woff2) format('woff2'),
+  url(/sources/fonts/opensansbold.woff) format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-0513;
+}
