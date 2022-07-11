@@ -11,18 +11,20 @@ $grayback: #fafafa;
 $graylight: #d3d2d2;
 $green: #61d1bb;
 $greendark: #56c3b2;
+$background-gray: #f9f9f9;
+$ikon-header-green: #3bb09d;
 
 
 
 
 
+@media (min-width: $tablet-width) {
+  .mob-only {
+  display: none;
+  }
+}
 
-// 
-// @media (min-width: $tablet-width) {
+@media (min-width: $desktop-width) {
   
-// }
-
-// @media (min-width: $desktop-width) {
-  
-// }
+}
 

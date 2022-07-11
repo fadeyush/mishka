@@ -6,16 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MISHKA онлайн-магазин</title>
-    <link rel="stylesheet" href="/sources/src/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <header class="page-header">
-    
         <nav class="page-header__main-nav">
 
-            <a class="main-nav__logo main-nav__item--logo" href="index.html">
+            <a class="main-nav__logo main-nav__item--logo" href="#">
                 <svg class="main-nav__logo--desktop" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 148.05 72.71" width="149px" height="72px">
                     <g id="Layer_2" data-name="Layer 2">
@@ -150,18 +149,18 @@
                 </svg>
             </a>
 
-            <ul class="main-nav__list main-nav__list--first">
+            <ul class="main-nav__list main-nav__list--first main-nav__list--closed">
                 <li class="main-nav__item">
-                    <a href="#" class="main-nav__item-name item-name__first">Каталог товаров</span></a>
+                    <a href="catalog.html" class="main-nav__item-name item-name__first">Каталог товаров</span></a>
                 </li>
                 <li class="main-nav__item">
                     <a href="form.html" class="main-nav__item-name item-name__first">Вязание на заказ</span></a>
                 </li>
             </ul>
 
-            <ul class="main-nav__list  main-nav__list--second">
+            <ul class="main-nav__list  main-nav__list--second main-nav__list--closed">
                 <li class="main-nav__item item__search">
-                    <svg class="main-nav__ikon main-nav__ikon--search" data-name="Layer 1"
+                    <svg class="main-nav__ikon main-nav__ikon--search" width="18px" height="18px" data-name="Layer 1"
                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.6 17.6">
                         <title>search</title>
                         <path
@@ -171,7 +170,7 @@
                     <span class="main-nav__item-name item-name__search">Поиск по сайту</span>
                 </li>
                 <li class="main-nav__item">
-                    <svg class="main-nav__ikon main-nav__ikon--cart" data-name="Layer 1"
+                    <svg class="main-nav__ikon main-nav__ikon--cart" width="21px" height="18px" data-name="Layer 1"
                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.29 18.85">
                         <title>cart</title>
                         <path
@@ -193,77 +192,138 @@
 
 
             <span class="page-header__item--delivery">Бесплатная доставка по России</span>
-
         </nav>
 
-        <div class="page-header__content">
-            <h1 class="page-header__title">Каталог товаров</h2>
+        <div class="page-header__content page-header__content--index">
+
+            <h1 class="page-header__title">Милые штуки <br class="mob-only"> ручной <br class="mob-only"> работы для
+                дома</h2>
+                <ul class="page-header__content-list">
+                    <li class="page-header__content-item--interior">
+                        <button class="page-header__content-item page-header__ikon-interior">
+                            Предметы <br> интерьера
+                        </button>
+                    </li>
+                    <li class="page-header__content-item--toys">
+                        <button class="page-header__content-item page-header__item-toys page-header__ikon-toys">
+                            Детские <br> игрушки
+                    </li>
+                </ul>
         </div>
 
     </header>
 
     <main>
 
-        <section class="products">
-            <h2 class="visually-hidden">Список товаров</h2>
-            <ul class="products__list">
-                <li class="products__item">
-                    <picture>
-                        <source media="(min-width: 1050px)" srcset="img/photo-hare-desktop@2x.jpg" width="316px"
-                            height="462px">
-                        <source media="(min-width: 668px)" srcset="img/photo-hare-tablet@2x.jpg" width="334px"
-                            height="334px">
-                        <img class="products__image" alt="Фото игрушки Зайчик-попрыгайчик" src="img/photo-hare-mobile@2x.jpg" width="260px" height="195px">
-                    </picture>
-                    
-                    <h3 class="products__name">Зайчик-попрыгайчик</h3>
-                    <p class="products__value">Рост 30 см, вес 200 г</p>
-                    <p class="products__price">1 200 руб.</p>
+        <h1 class="visually-hidden"></h1>
+
+        <section class="featured">
+
+            <h2 class="featured__title">Вязаные корзинки</h2>
+
+            <span class="featured__prod-of-week">Товар недели</span>
+
+            <div class="featured__character">
+
+                <p class="featured__content">Экологически чистая пряжа, ручная работа. Доступны в 6 расцветках, и трех
+                    размерах</p>
+
+                <table class="character__table">
+                    <tr>
+                        <td class="character__name">Цвет</td>
+                        <td class="character__value">«Тиффани»/серый</td>
+                    </tr>
+                    <tr>
+                        <td class="character__name">Диаметр</td>
+                        <td class="character__value">25 см</td>
+                    </tr>
+                    <tr>
+                        <td class="character__name">Высота</td>
+                        <td class="character__value">15 см</td>
+                    </tr>
+                </table>
+
+                <picture>
+                    <source media="(min-width: 1050px)" srcset="img/triple-set-desktop@2x.jpg" width="525px"
+                        height="636px">
+                    <source media="(min-width: 668px)" srcset="img/triple-set-tablet@2x.jpg" width="333px"
+                        height="404px">
+                    <img class="character__img" src="img/triple-set-mobile@2x.jpg"
+                        alt="Изображение товара Вязанные корзинки" width="260px" height="315px">
+                </picture>
+
+                <p class="character__price">Цена: 990 руб.</p>
+                <button type="button" class="character__order">Заказать</button>
+        </section>
+
+        <section class="about">
+            <h2 class="about__title">Коротко о нас:</h2>
+
+            <ul class="about__list">
+                <li class="about__item">
+                    Экологически чистый материал
                 </li>
-                <li class="products__item">
-                    <picture>
-                        <source media="(min-width: 1050px)" srcset="img/photo-bowl-desktop@2x.jpg" width="316px"
-                            height="462px">
-                        <source media="(min-width: 668px)" srcset="img/photo-bowl-tablet@2x.jpg" width="334px"
-                            height="334px">
-                        <img class="products__image" alt="Фото корзинки для белья" src="img/photo-bowl-mobile@2x.jpg" width="260px" height="195px">
-                    </picture>
-                    <h3 class="products__name">Корзинка для белья</h3>
-                    <p class="products__value">Диаметр 15 см, высота 10 см</p>
-                    <p class="products__price">690 руб.</p>
+                <li class="about__item">
+                    Скандинавский стиль по российской цене
                 </li>
-                <li class="products__item">
-                    <picture>
-                        <source media="(min-width: 1050px)" srcset="img/photo-toys-desktop@2x.jpg" width="316px"
-                            height="462px">
-                        <source media="(min-width: 668px)" srcset="img/photo-toys-tablet@2x.jpg" width="334px"
-                            height="334px">
-                        <img class="products__image" alt="Фото большой корзинки для игрушек" src="img/photo-toys-mobile@2x.jpg" width="260px" height="195px">
-                    </picture>
-                    <h3 class="products__name">Большая корзинка для игрушек</h3>
-                    <p class="products__value">Диаметр 30 см, высота 30 см</p>
-                    <p class="products__price">1 500 руб.</p>
+                <li class="about__item">
+                    Увеличивает лайки на фотографиях
+                </li>
+                <li class="about__item">
+                    Связано вручную с любовью и умилением
+                </li>
+                <li class="about__item">
+                    Поддержка отечественного производителя
+                </li>
+                <li class="about__item">
+                    Поставляется в подарочной упаковке
                 </li>
             </ul>
 
         </section>
 
-        <section class="video">
+        <section class="review">
+            <div class="review__wrapper">
+                <h2 class="review__title">Отзывы</h2>
 
-            <h2 class="video__title">Процесс производства</h2>
+                <blockquote>
+                    <p class="review__content">Я молодая мама, но всё равно фотографии не набирали и близко такого
+                        количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в
+                        Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!</p>
+                    <cite class="review__autor">
+                        <span class="review__autor-name">Анастасия Красильникова</span>
+                        <span class="review__autor-tag">@misssssiskras</span>
+                    </cite>
+                </blockquote>
 
-            <picture>
-                <source media="(min-width: 1050px)" srcset="img/video-desktop@2x.jpg" width="682px"
-                    height="455px">
-                <source media="(min-width: 668px)" srcset="img/video-tablet@2x.jpg" width="668px"
-                    height="455px">
-                <img class="video__image" alt="Видео процесса производства" src="img/video-mobile@2x.jpg" width="260px" height="150px">
-            </picture>
+                <div class="review__button-wrapper">
+                    <button type="button" class="review__button review__button-prev">Назад</button>
+                    <button type="button" class="review__button review__button-next">Вперед</button>
+                </div>
 
-            <p class="video__content">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
+                <button type="submit" class="review__submit">Написать</button>
+            </div>
+        </section>
 
-            <button type="button" class="video__button">Сделать заказ</button>
+        <section class="contacts">
+            <h2 class="contacts__title">Контакты</h2>
 
+            <table class="contacts__table">
+                <tr>
+                    <td class="contacts__name">e-mail:</td>
+                    <td class="contacts__value">info@mimimishkashop.ru</td>
+                </tr>
+                <tr>
+                    <td class="contacts__name">адрес</td>
+                    <td class="contacts__value">г. Санкт-Петербург,
+                        ул. Большая Конюшенная,
+                        д. 19/8, офис 101</td>
+                </tr>
+            </table>
+
+            <img src="" alt="Map">
+
+            <button type="button" class="contacts__wright">Напишите нам</button>
         </section>
 
     </main>
@@ -363,6 +423,5 @@
     </footer>
 
 </body>
-
 
 </html>
