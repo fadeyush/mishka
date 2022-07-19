@@ -1,0 +1,22 @@
+.page-footer {
+  background-color: $background-footer;
+}
+
+.footer__wrapper {
+  margin: 0 auto;
+  width: 260px;
+}
+
+@media (min-width: $tablet-width) {
+  .footer__wrapper {
+    width: 668px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  
+}

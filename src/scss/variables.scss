@@ -9,18 +9,26 @@ $black: #000000;
 $gray: #444444;
 $grayback: #fafafa;
 $graylight: #d3d2d2;
+$graydark: #e5e5e5;
+$background-footer: #f1f1f1;
 $green: #61d1bb;
 $greendark: #56c3b2;
 $background-gray: #f9f9f9;
 $ikon-header-green: #3bb09d;
 
-
+.mob-no {
+  display: none;
+}
 
 
 
 @media (min-width: $tablet-width) {
   .mob-only {
   display: none;
+  }
+
+  .mob-no {
+    display: block;
   }
 }
 

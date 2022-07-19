@@ -1,0 +1,37 @@
+.footer__contacts {
+  padding-left: 57px;
+  padding-right: 61px;
+  padding-top: 25px;
+  padding-bottom: 26px;
+
+  box-sizing: border-box;
+
+  border-bottom: 1px solid $graydark;
+}
+
+.footer__contacts-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__contacts-item {
+  cursor: pointer;
+}
+
+.footer__contacts-item:hover .footer__contacts-icon {
+  fill: $green;
+}
+
+.footer__contacts-item:active .footer__contacts-icon {
+  fill: $green;
+  opacity: 0.3;
+}
+
+@media (min-width: $tablet-width) {
+  
+}
+
+@media (min-width: $desktop-width) {
+  
+}
