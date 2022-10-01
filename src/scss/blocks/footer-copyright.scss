@@ -17,10 +17,13 @@
   font-weight: 700;
 
   color: $black;
+
+  cursor: pointer;
 }
 
 .footer__copyright-ikon {
   fill: $green;
+  cursor: pointer;
 }
 
 .footer__copyright:hover .footer__copyright-ikon {

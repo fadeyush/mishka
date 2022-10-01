@@ -43,7 +43,7 @@
 
   td {
     height: 40px;
-    box-sizing:border-box;
+    box-sizing: border-box;
     border-bottom: 1px solid $graylight;
   }
 }
@@ -128,13 +128,12 @@
 
     margin-bottom: 31px;
   }
-
 }
 
 @media (min-width: $desktop-width) {
   .featured {
     margin-top: 72px;
-  
+
     width: 1050px;
 
     padding-left: 175px;
@@ -166,5 +165,4 @@
     right: 0;
     z-index: -1;
   }
-  
 }

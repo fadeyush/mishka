@@ -15,8 +15,13 @@ $green: #61d1bb;
 $greendark: #56c3b2;
 $background-gray: #f9f9f9;
 $ikon-header-green: #3bb09d;
+$review-button-border: #ececec;
 
 .mob-no {
+  display: none;
+}
+
+.desktop-only {
   display: none;
 }
 
@@ -33,6 +38,8 @@ $ikon-header-green: #3bb09d;
 }
 
 @media (min-width: $desktop-width) {
-  
+  .desktop-only {
+    display: block;
+  }
 }
 
