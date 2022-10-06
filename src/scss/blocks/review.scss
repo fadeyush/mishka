@@ -1,5 +1,7 @@
 .review {
     margin-top: 60px;
+    padding-bottom: 51px;
+    box-sizing: border-box;
 }
 
 .review__wrapper {
@@ -77,6 +79,8 @@
         background-image: url("/img/review@2x.jpg");
         background-repeat: no-repeat;
         background-size: 350px 457px;
+        padding-bottom: 86px;
+        box-sizing: border-box;
     }
 
     .review__wrapper {
@@ -136,6 +140,8 @@
         margin: 0 auto;
         width: 1050px;
         margin-top: 50px;
+        padding-bottom: 91px;
+        box-sizing: border-box;
     }
 
     .review__wrapper {

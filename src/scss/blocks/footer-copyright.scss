@@ -36,9 +36,8 @@
 }
 
 @media (min-width: $tablet-width) {
-  
-}
-
-@media (min-width: $desktop-width) {
-  
+  .footer__copyright {
+    width: 185px;
+    padding: 0;
+  }
 }

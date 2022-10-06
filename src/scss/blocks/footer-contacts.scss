@@ -29,9 +29,16 @@
 }
 
 @media (min-width: $tablet-width) {
+  .footer__contacts {
+    padding: 0;
   
-}
+    box-sizing: border-box;
+  
+    border: none;
+  }
 
-@media (min-width: $desktop-width) {
-  
+  .footer__contacts-list {
+    width: 145px;
+   
+  }
 }
