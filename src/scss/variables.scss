@@ -37,10 +37,18 @@ $border-catalog-color: #ededed;
   .mob-no {
     display: block;
   }
+
+  .tablet-no {
+    display: none;
+  }
 }
 
 @media (min-width: $desktop-width) {
   .desktop-only {
+    display: block;
+  }
+
+  .tablet-no {
     display: block;
   }
 }
